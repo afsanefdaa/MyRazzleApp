@@ -1,5 +1,7 @@
+
 .Home {
   text-align: center;
+  background: lavender;
 }
 
 .Home-logo {
@@ -31,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

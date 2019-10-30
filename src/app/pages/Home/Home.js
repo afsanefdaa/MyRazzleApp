@@ -1,10 +1,10 @@
 import React from 'react';
-import './Home.css';
+import style from './Home.module.scss';
 
 class Home extends React.Component {
   render() {
     return (
-      <div className="Home">
+      <div className={style.Home}>
         Home
       </div>
     );

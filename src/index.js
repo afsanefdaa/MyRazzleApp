@@ -1,3 +1,6 @@
+/* eslint no-console: 0 */
+/* eslint global-require: 0 */
+
 import http from 'http';
 
 let app = require('./server').default;
@@ -6,7 +9,7 @@ const server = http.createServer(app);
 
 let currentApp = app;
 
-server.listen(process.env.PORT || 3000, error => {
+server.listen(process.env.PORT || 3000, (error) => {
   if (error) {
     console.log(error);
   }
